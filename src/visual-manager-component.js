@@ -27,9 +27,16 @@ class VisualManagerComponent extends React.Component {
 
         return (
             <div className='visual-manager-component'>
-              <div className='name'>Name: {this.state.data.full_name} </div>
-              <div className='forks'>Forks: {this.state.data.forks}</div>
-              <div className='stars'>Stars: {this.state.data.watchers}</div>
+              <div className="card">
+                <img className="card-img-top" data-src="..." alt="Card image cap"/>
+                <div className="card-block">
+                  <h4 className="card-title">{this.state.data.full_name}</h4>
+                  <p className="card-text">{this.state.data.description}</p>
+                  <a href="#" className="btn btn-primary">Button</a>
+                </div>
+              </div>
+              <div className='forks'><i className="fa fa-code-fork fa-5x"></i>{this.state.data.forks}</div>
+              <div className='stars'><i className="fa fa-star fa-5x"></i>{this.state.data.watchers}</div>
             </div>
         );
 
