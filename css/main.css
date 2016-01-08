@@ -1,11 +1,23 @@
 .visual-manager-component{
-  margin-top:100px;
+  margin-top:60px;
+}
+.info{
+  margin-top:15;
+}
+.des{
+  margin-top:15;
 }
 .blue{
   color:#025993;
 }
 .fa-list-fa{
   margin-top:10px;
+}
+.fa-list-fa i{
+  margin-left:27px;
+}
+.fa-list-fa p{
+  font-size:50px;
 }
 .thumbnail {
     padding:0px;
@@ -218,13 +230,13 @@
     padding-top: 0;
     overflow: hidden;
     text-align: center;
-    background-color: rgba(214, 224, 226, 0.2);
+    background-color: rgba(214, 224, 226, 0.5);
 }
 
 .card.hovercard .cardheader {
     width:100%;
     background-size:100% cover;
-    height: 145px;
+    height: 285px;
     filter:blur(15px);
     -webkit-filter:blur(15px);
     -mox-filter:blur(15px);

@@ -32,7 +32,7 @@ class VisualManagerComponent extends React.Component {
 
           <div className="container">
             	<div className="row">
-            		<div className="col-lg-3  col-md-3 col-sm-6 col-lg-offset-4 col-md-offset-4">
+            		<div className="col-lg-8 col-md-8 col-sm-6 col-lg-offset-2   col-md-offset-2">
                     <div className="card hovercard">
                       <img className="cardheader" src="https://avatars.githubusercontent.com/u/379348?v=3"/>
                       <div className="avatar">
@@ -46,7 +46,9 @@ class VisualManagerComponent extends React.Component {
 
 
                           <div className="fa-list-fa">
-                            <i className="fa fa-star fa-2x blue "></i>&nbsp; <i className="fa fa-code-fork fa-2x fa-fw blue" ></i>
+                            <i className="fa fa-star fa-5x blue "></i>
+                          
+                            <i className="fa fa-code-fork fa-5x fa-fw blue" ></i>
 
                             <p>{this.state.data.watchers}&nbsp; {this.state.data.forks}</p>
 
