@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "/silverstripe-visual",
+  baseURL: "/experiment/silverstripe-visual",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
